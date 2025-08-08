@@ -1,0 +1,55 @@
+# -----------------------
+# Frontend: Next.js
+# -----------------------
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/.pnp
+frontend/.pnp.*
+frontend/.vercel/
+frontend/.env*
+frontend/next-env.d.ts
+frontend/*.tsbuildinfo
+frontend/.yarn/*
+!frontend/.yarn/patches
+!frontend/.yarn/plugins
+!frontend/.yarn/releases
+!frontend/.yarn/versions
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.pnpm-debug.log*
+
+# -----------------------
+# Backend: FastAPI
+# -----------------------
+backend/__pycache__/
+backend/*.py[cod]
+backend/*.pyo
+backend/venv/
+backend/.venv/
+backend/env/
+backend/ENV/
+backend/build/
+backend/dist/
+backend/*.egg-info/
+backend/.eggs/
+backend/.pytest_cache/
+backend/.cache/
+backend/.mypy_cache/
+backend/.nox/
+backend/.tox/
+backend/.env*
+backend/*.log
+backend/htmlcov/
+backend/.coverage
+backend/coverage.xml
+
+# -----------------------
+# Common
+# -----------------------
+*.DS_Store
+*.pem
+.vscode/
+.idea/
