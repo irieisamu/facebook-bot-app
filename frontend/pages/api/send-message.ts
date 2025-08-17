@@ -13,7 +13,7 @@ export default async function handler(
   const { recipientId, message } = req.body;
 
   const fbRes = await fetch(
-    `https://graph.facebook.com/v19.0/me/messages?access_token=${PAGE_ACCESS_TOKEN}`,
+    `https://graph.facebook.com/v23.0/me/messages?access_token=${PAGE_ACCESS_TOKEN}`,
     {
       method: "POST",
       headers: { "Content-Type": "application/json" },
